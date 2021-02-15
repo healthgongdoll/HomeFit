@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context=".MemberInfo"
+    android:background="@color/bottomColor"
+    >
+    <TextView
+        android:id="@+id/txtLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="@font/receipekorea"
+        android:text="User Information"
+        android:layout_marginTop="30dp"
+
+        android:textColor="@color/textColorb"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            app:cardCornerRadius="100dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                />
+        </androidx.cardview.widget.CardView>
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="Name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/component"
+            android:padding="10dp"
+            android:inputType="text"
+            />
+
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/component"
+            android:ems="10"
+            android:hint="ID"
+            android:padding="10dp"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/edtWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/component"
+            android:ems="10"
+            android:padding="10dp"
+            android:hint="Body Weight"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="OK"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/mainbuttonbackground"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

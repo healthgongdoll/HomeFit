@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+       android:startColor="@color/colorPrimary"
+        android:endColor="@color/colorPrimary"
+        />
+    <corners android:bottomLeftRadius="20dip"
+        android:topRightRadius="20dip"
+        android:topLeftRadius="20dip"
+        android:bottomRightRadius="20dip"
+        />
+    <solid android:color="@color/colorPrimary" />
+    <padding
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp" />
+
+    <!-- 테두리 설정: 두께, 색상 -->
+    <stroke
+        android:width="3dp"
+        android:color="@color/textColorb" />
+</shape>

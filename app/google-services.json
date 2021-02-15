@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "183252124177",
+    "firebase_url": "https://homefit-2b05f.firebaseio.com",
+    "project_id": "homefit-2b05f",
+    "storage_bucket": "homefit-2b05f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183252124177:android:71981ca7556675c16527b0",
+        "android_client_info": {
+          "package_name": "com.example.homefit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183252124177-ajmkfpf0j5uv62gs57sh6b95h6281jul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homefit",
+            "certificate_hash": "063089b163b15d90a6001fd07534f93976e655c3"
+          }
+        },
+        {
+          "client_id": "183252124177-be5riggo679toad691ek3v0aai3cb2fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF6OO0oN06Fd4RUC-25FescJX5IKhSGkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183252124177-be5riggo679toad691ek3v0aai3cb2fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
