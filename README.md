@@ -1,4 +1,4 @@
 # HomeFit
 Mobile HomeTraining Application
 
-Andorid Application
+Applicable for Only Android 
