@@ -14,7 +14,8 @@ Database Used: Firebase
 
 Applicable for Only Android 
 
-###Done List 
+### Done List 
+
 - [x] Login
 - [x] Sign_Up
 - [X] Friend_Search
